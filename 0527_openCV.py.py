@@ -20,6 +20,7 @@ image_extensions = (".jpg", ".jpeg", ".png", ".bmp")
 # 逐一讀取 data 資料夾中的圖片
 for filename in os.listdir(input_dir):
 
+
     if not filename.lower().endswith(image_extensions):
         continue
 
